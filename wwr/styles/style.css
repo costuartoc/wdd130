@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&family=Roboto&display=swap');
 #content {
     max-width: 1600px;
     margin:0 auto;
@@ -6,6 +7,7 @@ nav a {
     text-align: center;
     color:white;
     text-decoration: none;
+    padding: 35px;
 }
 #hero-msg h1, #hero-msg h4{
     text-align: center;
@@ -21,6 +23,13 @@ main section{
 }
 body {
     background-color:white ;
+    font-family: Roboto, Helvetica, sans-serif;
+    font-size: 22px;
+    margin: 0;
+    padding: 0;
+}
+h2 {
+    margin: 0;
 }
 header {
     background-color:#397673 ;
@@ -33,6 +42,10 @@ nav a:hover {
     background-color:#7aa899;
     color:black;
     text-decoration: none;
+    font-size: 18px;
+    padding: 15px 30px;
+    margin-top: 50px;
+    border-radius: 5px;
 }
 .book:hover, .join:hover {
     background-color:#397673;
@@ -43,22 +56,33 @@ nav a:hover {
 }
 .msg {
     background-color:#397673 ;
+    line-height: 1.5em;
+    padding: 35px;
 }
 footer{
     background-color:#397673 ;
     color:#7aa899;
+    font-size: 18px;
+    padding: 25px 50px;
+    margin-top: 200px;
 }
 .home-title {
-    color:black;;
+    color:#397673;
+    font-family: "Oswald", Helvetica, sans-serif;
+    font-size: 4em;
+    margin-top: 10px;
 }
 h4 {
-    color:black;;
+    color:black;
 }
 .msg h2 {
     color:white;;
+    font-family: Roboto, Helvetica, sans-serif;
 }
 .msg p {
-    color:white;;
+    color:white;
+    font-size: 1em;
+    padding-bottom: 15px;
 }
 footer a {
     color:#7aa899;
@@ -72,6 +96,7 @@ footer a:hover {
 }
 .icon {
     width: 80px;
+    padding-top: 10px;
 }
 #hero-img {
     width:100%;
@@ -81,4 +106,23 @@ footer p {
 }
 footer p a:hover {
     text-decoration: underline;
+}
+#logo_link{
+    padding-top: 5px;
+}
+footer .social img{
+    padding-top: 15px;
+}
+.rivers-card, .camping-card, .rapids-card{
+    margin: 200px 0;
+}
+.card-img {
+    border: 10px solid #397673;
+}
+main section img {
+    box-sizing: border-box;
+}
+.mountains {
+    padding-top: 30px;
+    padding-bottom: 30px;
 }
