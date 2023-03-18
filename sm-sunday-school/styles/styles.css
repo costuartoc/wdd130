@@ -58,6 +58,9 @@ nav a {
     text-decoration: none;
     padding: 35px;
 }
+nav a:hover {
+    color: #7BCAE0;
+}
 div a {
     text-decoration: none;
 }
@@ -176,6 +179,12 @@ footer{
     font-size: 25px;
     font-family: Playfair Display;
     font-weight: 100;
+}
+#resources-button-box a:hover {
+    color:white;
+}
+#goals-button-box a:hover {
+    color: white;
 }
 #resources-button-box a :hover, #goals-button-box a :hover {
     color: #1B515F;
