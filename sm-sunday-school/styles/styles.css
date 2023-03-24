@@ -277,7 +277,7 @@ h2{
 #cfm-button-box {
     grid-column: 2/3;
     grid-row: 2/3;
-    margin-top: 325px;
+    margin-top: 350px;
     text-align: center;
 }
 .resources-h2 {
@@ -298,4 +298,8 @@ h2{
 }
 .resources-p {
     color: #1B515F;
+    background-color: #7BCAE0;
+    box-shadow: 5px 5px 10px black;
+    margin-right: 20px;
+    border: 5px solid #28849C;
 }
